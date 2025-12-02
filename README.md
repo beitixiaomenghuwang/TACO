@@ -300,5 +300,5 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 ## 📧 Contact
 
 For questions or collaborations, please contact:
-- Email: breezeyoung9470@example.com
+- Email: breezeyoung9470@gmail.com
 - GitHub Issues: [Open an issue](https://github.com/breez3young/TACO/issues)
