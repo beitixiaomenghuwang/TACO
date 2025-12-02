@@ -1,0 +1,89 @@
+Task suite: libero_10
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 1...
+Caught exception: get_vla_action_cfntts() missing 1 required positional argument: 'unnorm_key'
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-15_43_37--episode=1--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 2...
+Caught exception: get_vla_action_cfntts() missing 1 required positional argument: 'unnorm_key'
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-15_43_37--episode=2--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 3...
+Caught exception: get_vla_action_cfntts() missing 1 required positional argument: 'unnorm_key'
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-15_43_37--episode=3--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 3
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 4...
+Caught exception: get_vla_action_cfntts() missing 1 required positional argument: 'unnorm_key'
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-15_43_37--episode=4--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 4
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 5...
+Caught exception: get_vla_action_cfntts() missing 1 required positional argument: 'unnorm_key'
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-15_43_37--episode=5--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 5
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 6...
+Caught exception: get_vla_action_cfntts() missing 1 required positional argument: 'unnorm_key'
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-15_43_37--episode=6--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 6
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 7...
+Caught exception: get_vla_action_cfntts() missing 1 required positional argument: 'unnorm_key'
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-15_43_37--episode=7--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 7
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 8...
+Caught exception: get_vla_action_cfntts() missing 1 required positional argument: 'unnorm_key'
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-15_43_37--episode=8--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 8
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 9...
+Caught exception: get_vla_action_cfntts() missing 1 required positional argument: 'unnorm_key'
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-15_43_37--episode=9--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 9
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 10...
+Caught exception: get_vla_action_cfntts() missing 1 required positional argument: 'unnorm_key'
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-15_43_37--episode=10--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 10
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 11...
+Caught exception: get_vla_action_cfntts() missing 1 required positional argument: 'unnorm_key'
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-15_43_37--episode=11--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 11
+# successes: 0 (0.0%)

@@ -1,0 +1,49 @@
+Task suite: libero_10
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 1...
+Caught exception: 
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-16_05_38--episode=1--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 2...
+Caught exception: 
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-16_05_38--episode=2--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 3...
+Caught exception: 
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-16_05_38--episode=3--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 3
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 4...
+Caught exception: 
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-16_05_38--episode=4--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 4
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 5...
+Caught exception: 
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-16_05_38--episode=5--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 5
+# successes: 0 (0.0%)
+
+Task: put both the alphabet soup and the tomato sauce in the basket
+Starting episode 6...
+Caught exception: 
+Saved rollout MP4 at path ./rollouts/2025_11_06/2025_11_06-16_05_38--episode=6--success=False--task=put_both_the_alphabet_soup_and_the_tomato_sauce_in.mp4
+Success: False
+# episodes completed so far: 6
+# successes: 0 (0.0%)
