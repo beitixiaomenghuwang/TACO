@@ -4,7 +4,7 @@
 
 <img src="assets/taco.png" alt="TACO" width="20"/> **Test-time Anti-exploration via pseudo-COunts (TACO)**
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](about:blank)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2512.02834)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://vla-anti-exploration.github.io/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green)](LICENSE)
 [![Demo](https://img.shields.io/badge/Demo-Video-orange)](https://vla-anti-exploration.github.io/#:~:text=A%20comparison%20of%20key%20moments%20while%20grasping%20a%20marker)
@@ -281,7 +281,7 @@ If you find TACO useful for your research, please cite our paper:
 @article{yang2025taco,
   title={Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling Approach},
   author={Siyuan Yang, Yang Zhang, Haoran He, Ling Pan, Xiu Li, Chenjia Bai, Xuelong Li},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  journal={arXiv preprint arXiv:2512.02834},
   year={2025}
 }
 ```
