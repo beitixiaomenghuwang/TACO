@@ -458,8 +458,12 @@ def convert_dataset(
     if video_file_size_in_mb is None:
         video_file_size_in_mb = DEFAULT_VIDEO_FILE_SIZE_IN_MB
 
+    # Check if repo_id is an absolute path
+    repo_id_path = Path(repo_id)
+    is_absolute_path = repo_id_path.is_absolute()
+    
     # First check if the dataset already has a v3.0 version
-    if root is None and not force_conversion:
+    if root is None and not force_conversion and not is_absolute_path:
         try:
             print("Trying to download v3.0 version of the dataset from the hub...")
             snapshot_download(repo_id, repo_type="dataset", revision=V30, local_dir=HF_LEROBOT_HOME / repo_id)
@@ -469,11 +473,22 @@ def convert_dataset(
 
     # Set root based on whether local dataset path is provided
     use_local_dataset = False
-    root = HF_LEROBOT_HOME / repo_id if root is None else Path(root) / repo_id
-    if root.exists():
-        validate_local_dataset_version(root)
-        use_local_dataset = True
-        print(f"Using local dataset at {root}")
+    if is_absolute_path:
+        # If repo_id is an absolute path, use it directly
+        root = repo_id_path
+        if root.exists():
+            validate_local_dataset_version(root)
+            use_local_dataset = True
+            print(f"Using local dataset at {root}")
+        else:
+            raise ValueError(f"Provided absolute path does not exist: {root}")
+    else:
+        # Original logic for hub repo ids
+        root = HF_LEROBOT_HOME / repo_id if root is None else Path(root) / repo_id
+        if root.exists():
+            validate_local_dataset_version(root)
+            use_local_dataset = True
+            print(f"Using local dataset at {root}")
 
     # old_root = root.parent / f"{root.name}_old"
     new_root = root.parent / f"{root.name}_v30"
@@ -530,7 +545,7 @@ if __name__ == "__main__":
         type=str,
         required=True,
         help="Repository identifier on Hugging Face: a community or a user name `/` the name of the dataset "
-        "(e.g. `lerobot/pusht`, `cadene/aloha_sim_insertion_human`).",
+        "(e.g. `lerobot/pusht`, `cadene/aloha_sim_insertion_human`), or an absolute path to a local dataset directory.",
     )
     parser.add_argument(
         "--branch",

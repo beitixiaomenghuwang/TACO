@@ -1,0 +1,8 @@
+2025/12/12 14:26:39 [info] ks3util run begin,cmd:/home/caslx/Downloads/ks3util-linux-amd64 TACO ks3://zhouyihan/guoxueyang/ -r
+2025/12/12 14:26:39 [info] ks3util version is 2.12.0
+2025/12/12 14:26:39 [info] ks3 go sdk version is v1.2.5
+2025/12/12 14:26:39 [info] go version is go1.23.4
+2025/12/12 14:26:39 [info] runtime.NumCPU is 16
+2025/12/12 14:26:39 [info] logLevel is info
+2025/12/12 14:26:39 [error] 未知命令： TACO，请使用 help 命令查看帮助信息.
+2025/12/12 14:26:39 [info] ks3util run end,cost:0(ms).

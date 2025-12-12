@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: cfn
+Version: 0.1.0
+Requires-Dist: tqdm
+Requires-Dist: tensorboard
